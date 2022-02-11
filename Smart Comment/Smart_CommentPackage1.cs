@@ -26,6 +26,12 @@ namespace Smart_Comment
 
         public const string guidImages2String = "3af3e02c-98b2-4f49-941f-c3360493404f";
         public static Guid guidImages2 = new Guid(guidImages2String);
+
+        public const string guidSmart_CommentPackageCmdSet1String = "39e1621e-03d0-496f-886f-79d1d6168ff7";
+        public static Guid guidSmart_CommentPackageCmdSet1 = new Guid(guidSmart_CommentPackageCmdSet1String);
+
+        public const string guidImages3String = "85d8a1d3-67e7-4d65-a694-b3e5a35e1326";
+        public static Guid guidImages3 = new Guid(guidImages3String);
     }
     /// <summary>
     /// Helper class that encapsulates all CommandIDs uses across VS Package.
@@ -33,13 +39,6 @@ namespace Smart_Comment
     internal sealed partial class PackageIds
     {
         public const int MyMenuGroup = 0x1020;
-        public const int cmdidSCCommand = 0x0100;
-        public const int cmdidSCSettingsWindowCommand = 0x1021;
-        public const int bmpPic1 = 0x0001;
-        public const int bmpPic2 = 0x0002;
-        public const int bmpPicSearch = 0x0003;
-        public const int bmpPicX = 0x0004;
-        public const int bmpPicArrows = 0x0005;
-        public const int bmpPicStrikethrough = 0x0006;
+        public const int cmdidSCInvisible = 0x0100;
     }
 }

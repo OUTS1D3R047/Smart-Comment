@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Smart_Comment.bdc3c402-a117-4791-93a1-eb1dded1d050" Version="1.0" Language="en-US" Publisher="Vitalii Nevesenko" />
+        <Identity Id="Smart_Comment.bdc3c402-a117-4791-93a1-eb1dded1d050" Version="2.0" Language="en-US" Publisher="Vitalii Nevesenko" />
         <DisplayName>Smart Comment</DisplayName>
         <Description xml:space="preserve">An extension, for automating the process of commenting code with technical notes.</Description>
-        <Icon>AddComment.ico</Icon>
-        <PreviewImage>AddComment.ico</PreviewImage>
+        <Icon>AddComment.png</Icon>
+        <PreviewImage>AddComment.png</PreviewImage>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
